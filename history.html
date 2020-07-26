@@ -7,11 +7,230 @@
     <link rel="stylesheet" href="./framework/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="./assets/font/airbnb_font.css" type="text/css">
     <link rel="stylesheet" href="./css/history.css" type="text/css">
+    <link rel="stylesheet" href="./css/responsive.css" type="text/css">
     <title>History</title>
 </head>
 
 <body>
-    
+    <header>
+        <div class="left-header-container">
+            <div class="menu">
+                <img src="./assets/img/menu.png">
+            </div>
+            <div class="header-title">
+                <h4>
+                    History
+                </h4>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="left-sidebar-container">
+            <div class="left-sidebar-items">
+                <img src="./assets/img/fork.png">
+            </div>
+            <div class="left-sidebar-items">
+                <img src="./assets/img/report.png">
+            </div>
+            <div class="left-sidebar-items">
+                <img src="./assets/img/add.png">
+            </div>
+            <div class="blank">
+
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card1">
+                        <h4>
+                            Today's Income
+                        </h4>
+                        <h2>
+                            Rp. 1.000.000
+                        </h2>
+                        <h4>
+                            +2% Yesterday
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card2">
+                        <h4>
+                            Orders
+                        </h4>
+                        <h2>
+                            3.270
+                        </h2>
+                        <h4>
+                            +5% Last Week
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card3">
+                        <h4>
+                            This Year’s Income
+                        </h4>
+                        <h2>
+                            Rp. 100.000.000.000
+                        </h2>
+                        <h4>
+                            +10% Last Year
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="chart-container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="title-container">
+                                    <h3>Revenue</h3>
+                                    <select class="month-select" name="month">
+                                        <option value="year">year</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="chart-legend-container">
+                                    <div class="chart-chart-container">
+                                        <div class="chart chart1">
+                                            <div class="value1 chart-value1">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value1 chart-value2">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value1 chart-value3">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value1 chart-value4">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value1 chart-value1">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value1 chart-value2">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value1 chart-value4">
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                        <div class="chart chart2">
+                                            <div class="value2 chart-value1">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value2 chart-value2">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value2 chart-value3">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value2 chart-value4">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value2 chart-value1">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value2 chart-value2">
+                                                &nbsp;
+                                            </div>
+                                            <div class="value2 chart-value1">
+                                                &nbsp;
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="legend-container">
+                                        <div class="legend-axis">
+                                            <div class="legend-x1">
+                                                <table class="legend-x1-value">
+                                                    <tr>
+                                                        <th>0</th>
+                                                        <th>10k</th>
+                                                        <th>20k</th>
+                                                        <th>30k</th>
+                                                        <th>40k</th>
+                                                        <th>50k</th>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="legend-x2">
+                                                <table class="legend-x2-value">
+                                                    <tr>
+                                                        <th>0</th>
+                                                        <th>10k</th>
+                                                        <th>20k</th>
+                                                        <th>30k</th>
+                                                        <th>40k</th>
+                                                        <th>50k</th>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="legend-label">
+                                            <div style="display:flex; width:50%;">
+                                                <div style="width:5px;height:5px;background: #00F1FF;">
+                                                </div>
+                                                <h4
+                                                    style="display: block; font-size: 10px;line-height: 13px;color: #000000;">
+                                                    This Month
+                                                </h4>
+                                            </div>
+                                            <div style="display:flex;width:50%;">
+                                                <div style="width:5px;height:5px;background: #FFB8C6;">
+                                                </div>
+                                                <h4
+                                                    style="display: block; font-size: 10px;line-height: 13px;color: #000000;">
+                                                    Last Month
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="recent-order-container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="title-container">
+                                    <h3>Recent Order</h3>
+                                    <select class="month-select" name="month">
+                                        <option value="year">Today</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <table class="order-table">
+                                    <tr style="border-bottom: 1px solid #CECECE;">
+                                        <th>INVOICES</th>
+                                        <th>CASIER</th>
+                                        <th style="text-align: center;">DATE</th>
+                                        <th style="text-align: center;">ORDERS</th>
+                                        <th style="text-align: center;">AMOUNT</th>
+                                    </tr>
+                                    <tr>
+                                        <th>#10928</th>
+                                        <th>Cashier 1</th>
+                                        <th>06 October 2019</th>
+                                        <th>Ice Tea, Salad With peanut sauce</th>
+                                        <th>Rp. 120.000</th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
