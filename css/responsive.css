@@ -5,6 +5,10 @@
 }
 
 @media all and (max-width:1199px) {
+    .checked-item {
+        left: 0px
+    }
+
     .checkout-content h3,.checkout-content h4,.form-content h2 {
         font-size: 18px
     }
@@ -24,7 +28,7 @@
     }
 
     .checked-item {
-        left: 10px
+        left: 0px
     }
 
     .checkout-content h3,.checkout-content h4,.form-content h2 {
