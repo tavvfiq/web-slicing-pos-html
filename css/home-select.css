@@ -1,48 +1,34 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
-html,
-body,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-div {
+body,div,h1,h2,h3,h4,h5,h6,html,li,ol,p,ul {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 body {
-    font-family: 'airbnb_cereal_appmedium';
+    font-family: 'airbnb_cereal_appmedium'
 }
 
 header {
     display: flex;
-    transition: all 0.5s;
+    transition: all .5s
 }
 
 .left-header-container {
     display: flex;
     width: 65vw;
     height: 10vh;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25)
 }
 
 .menu {
-    width: 10%;
-    height: 100%;
-    position: relative;
+    width: 10%
 }
 
-.menu img {
+.left-sidebar-items img,.menu img,.search img {
     height: 35%;
     width: 35.35%;
     position: absolute;
@@ -52,112 +38,90 @@ header {
     right: 0;
     margin: auto;
     object-fit: contain;
-    transition: all 0.5s;
+    transition: all .5s
+}
+
+.header-title,.menu,.search {
+    height: 100%;
+    position: relative
 }
 
 .header-title {
     width: 80%;
-    height: 100%;
     text-align: center;
-    position: relative;
-    display: table;
-    /* top: 34%; */
-    /* margin-top:34px; */
+    display: table
 }
 
-.header-title h4 {
+.cart h4,.header-title h4 {
     font-size: 26px;
-    /* height: 100%;
-    vertical-align: middle; */
     vertical-align: middle;
-    display:table-cell;
+    display: table-cell
 }
 
 .search {
-    width: 10%;
-    height: 100%;
-    position: relative;
+    width: 10%
 }
 
-.search img {
-    height: 35%;
-    width: 35.35%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    object-fit: contain;
-    transition: all 0.5;
+.left-sidebar-items img,.search img {
+    transition: all .5
 }
 
 .right-header-container {
     width: 35vw;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    box-shadow: 0 4px 1px rgba(0,0,0,.25)
 }
 
 .cart {
     width: 100%;
     height: 100%;
     position: relative;
-    display:table;
-    /* top: 40%; */
-    text-align: center;
+    display: table;
+    text-align: center
 }
 
-.cart h4{
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 25px;
+.cart h4 {
+    font-size: 25px
 }
 
 .badge-info {
     font-size: 20px;
     width: 25px;
     height: 25px;
-    background: #57CAD5;
+    background: #57cad5
 }
 
 .main-container {
     display: flex;
     width: 100vw;
     height: 90vh;
-    background: rgba(190, 195, 202, 0.3);
+    background: rgba(190,195,202,.3)
 }
 
 .left-sidebar-container {
     width: 7%;
     height: 100%;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .left-sidebar-items {
     height: 12%;
-    position: relative;
+    position: relative
 }
 
 .left-sidebar-items img {
     height: 40.61%;
     width: 44.04%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    object-fit: contain;
-    transition: all 0.5s;
+    transition: all .5s
 }
 
 .container-fluid {
     width: 58%;
     height: 100%;
-    overflow-y: auto;
+    overflow-y: auto
 }
 
 .content-item {
@@ -165,35 +129,38 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: auto
 }
 
 .content-image {
     width: 220px;
     height: 176px;
     margin: auto;
-    position: relative;
+    position: relative
 }
 
 .content-image img {
     width: 100%;
     height: 100%;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
     margin-top: 20px;
     left: 40%;
-    object-fit: cover;
+    object-fit: cover
+}
+
+.checked-item,.checked-item img {
+    left: 0;
+    right: 0;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+    position: absolute
 }
 
 .checked-item {
     width: 220px;
     height: 176px;
     top: 20px;
-    left: 0;
-    right: 0;
-    border-radius: 10px 10px 0px 0px;
-    margin: auto;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0,0,0,.4)
 }
 
 .checked-item img {
@@ -201,43 +168,38 @@ header {
     height: 28%;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 10px 10px 0px 0px;
-    margin: auto;
-    position: absolute;
-    object-fit: contain;
+    object-fit: contain
 }
 
 .content-text {
     width: 100%;
     height: 45px;
-    margin: 25px auto 20px 0;
+    margin: 25px auto 20px 0
+}
+
+.content-text h4,.content-text p {
+    width: 100%;
+    font-size: 25px;
+    text-align: center
 }
 
 .content-text h4 {
-    width: 100%;
     font-family: 'airbnb_cereal_applight';
-    font-weight: normal;
-    font-size: 25px;
-    text-align: center;
+    font-weight: 400
 }
 
 .content-text p {
-    width: 100%;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
+    font-weight: 700
 }
 
 .right-sidebar-container {
     width: 35%;
     height: 100%;
-    background: #FFFFFF;
-    border: 1px solid #CECECE;
+    background: #fff;
+    border: 1px solid #cecece;
     padding-left: 25px;
     padding-right: 25px;
-    overflow-y: auto;
+    overflow-y: auto
 }
 
 .right-sidebar-content {
@@ -245,30 +207,29 @@ header {
     height: 100%;
     width: 100%;
     vertical-align: middle;
-    margin: 35px auto auto auto;
+    margin: 35px auto auto
 }
 
 .right-sidebar-image {
     width: 100px;
-    height: 100px;
+    height: 100px
 }
 
 .right-sidebar-image img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    object-fit: cover;
+    object-fit: cover
 }
 
 .right-sidebar-text {
-    width: 70%;
+    width: 70%
 }
 
 .counter {
     display: flex;
-    /* width: 100%; */
     margin-left: 21px;
-    margin-top: 25px;
+    margin-top: 25px
 }
 
 .counter div {
@@ -276,54 +237,53 @@ header {
     height: 40px;
     font-size: 30px;
     line-height: 45px;
-    color: #82DE3A;
+    color: #82de3a;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: middle
 }
 
-.right-sidebar-text h1 {
+.price,.right-sidebar-text h1 {
     font-size: 25px;
     line-height: 33px;
-    margin-left: 21px;
+    margin-left: 21px
 }
 
 .price {
     width: 100%;
     height: 100%;
-    margin-left: 21px;
     margin-top: 32px;
     text-align: right;
     font-size: 20px;
     line-height: 26px;
-    vertical-align: text-bottom;
+    vertical-align: text-bottom
 }
 
 .confirm-container {
-    margin-top: 200px;
+    margin-top: 200px
 }
 
 .btn-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .btn-confirm {
     width: 100%;
     height: 61px;
-    border-width: 0px;
+    border-width: 0;
     font-size: 25px;
     line-height: 33px;
-    color: #FFFFFF;
-    border-radius: 10px;
+    color: #fff;
+    border-radius: 10px
 }
 
 .checkout {
-    background: #57CAD5;
-    margin-bottom: 5px;
+    background: #57cad5;
+    margin-bottom: 5px
 }
 
 .cancel {
-    background: #F24F8A;
+    background: #f24f8a;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }

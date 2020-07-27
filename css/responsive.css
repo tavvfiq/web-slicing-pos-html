@@ -1,195 +1,147 @@
-/* special */
-@media all and (max-width: 1280px){
+@media all and (max-width:1280px) {
     .checked-item {
-        left: 10px;
+        left: 10px
     }
 }
 
-/* large */
-@media all and (max-width: 1199px){
-    /* .header-title {
-        margin-top:12px;
-    } */
-    .checkout-content h3{
-        font-size: 18px;
-    }
-
-    .checkout-content h4{
-        font-size: 18px;
+@media all and (max-width:1199px) {
+    .checkout-content h3,.checkout-content h4,.form-content h2 {
+        font-size: 18px
     }
 
     .form-content h1 {
-        font-size: 24px;
-    }
-    
-    .form-content h2 {
-        font-size: 18px;
+        font-size: 24px
     }
 }
 
-/* medium */
 @media all and (max-width:991px) {
-    .header-title h4 {
-        font-size: 23px;
+    .form-content h1,.header-title h4 {
+        font-size: 24px
     }
 
     .container-fluid {
-        width: 65%;
+        width: 65%
     }
 
     .checked-item {
-        left: 10px;
+        left: 10px
     }
 
-    .checkout-content h3{
-        font-size: 18px;
+    .checkout-content h3,.checkout-content h4,.form-content h2 {
+        font-size: 18px
     }
 
-    .checkout-content h4{
+    .additem-btn,.btn-confirm {
         font-size: 18px;
-    }
-
-    .form-content h1 {
-        font-size: 24px;
-    }
-    
-    .form-content h2 {
-        font-size: 18px;
-    }
-
-    .btn-confirm {
-        font-size: 18px;
-        line-height: 46px;
+        line-height: 46px
     }
 
     .additem-btn {
-        font-size: 18px;
-        line-height: 39px;
+        line-height: 39px
     }
 
     .left-sidebar-container {
-        display: none;
+        display: none
     }
 }
 
-/* small */
-@media all and (max-width:767px){
+@media all and (max-width:767px) {
     .menu {
-        width: 20%;
+        width: 20%
     }
 
     .left-header-container {
-        width: 100vw;
+        width: 100vw
     }
 
     .header-title {
         width: 60%;
-        font-size: 20px;
+        font-size: 20px
     }
 
     .search {
-        width: 20%;
+        width: 20%
     }
 
     .left-sidebar-container {
-        display: none;
+        display: none
     }
 
     .container-fluid {
-        overflow-x: hidden;
+        overflow-x: hidden
     }
 
-    .right-sidebar-container{
-        display:none;
+    .right-sidebar-container {
+        display: none
     }
 
-    .checkout-content h3{
-        font-size: 14px;
-    }
-
-    .checkout-content h4{
-        font-size: 14px;
+    .checkout-content h3,.checkout-content h4 {
+        font-size: 14px
     }
 
     .form-content h1 {
-        font-size: 24px;
-    }
-    
-    .form-content h2 {
-        font-size: 16px;
+        font-size: 24px
     }
 
-    .btn-confirm {
+    .form-content h2 {
+        font-size: 16px
+    }
+
+    .additem-btn,.btn-confirm {
         font-size: 16px;
-        line-height: 46px;
+        line-height: 46px
     }
 
     .additem-btn {
-        font-size: 16px;
-        line-height: 39px;
+        line-height: 39px
     }
 
-    .right-header-container{
-        display: none;
+    .right-header-container {
+        display: none
     }
 }
 
-/* xtra small */
-@media all and (max-width:576px){
+@media all and (max-width:576px) {
     .left-header-container {
-        width: 100vw;
+        width: 100vw
     }
 
     .header-title h4 {
-        font-size: 18px;
+        font-size: 18px
     }
 
     .container-fluid {
         width: 100%;
         height: 100%;
-        overflow-y: auto;
+        overflow-y: auto
     }
 
-    .content-text h4{
-        font-size: 20px;
+    .content-text h4,.content-text p {
+        font-size: 20px
     }
 
-    .content-text p{
-        font-size: 20px;
+    .right-header-container,.right-sidebar-container {
+        display: none
     }
 
-    .right-header-container{
-        display: none;
-    }
-
-    .right-sidebar-container{
-        display:none;
-    }
-
-    .checkout-content h3{
-        font-size: 10px;
-    }
-
-    .checkout-content h4{
-        font-size: 10px;
+    .checkout-content h3,.checkout-content h4 {
+        font-size: 10px
     }
 
     .form-content h1 {
-        font-size: 24px;
-    }
-    
-    .form-content h2 {
-        font-size: 14px;
+        font-size: 24px
     }
 
-    .btn-confirm {
+    .form-content h2 {
+        font-size: 14px
+    }
+
+    .additem-btn,.btn-confirm {
         font-size: 14px;
-        line-height: 46px;
+        line-height: 46px
     }
 
     .additem-btn {
-        font-size: 14px;
-        line-height: 39px;
+        line-height: 39px
     }
-    
 }
